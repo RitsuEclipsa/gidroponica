@@ -1,0 +1,50 @@
+# IGNORE CONFIGS AND IDE's FILES
+# ----------------------------
+/.htaccess
+/.idea/
+Thumbs.db
+.DS_Store
+._.DS_Store
+/*.txt
+/*.xml
+
+# VIDEO
+# ----------------------------
+*.avi
+*.flv
+*.wmv
+*.mpeg
+*.mp4
+
+# DOCS
+# ----------------------------
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.pdf
+*.psd
+*.csv
+
+# ARCHIVES, BACKUPS
+# ----------------------------
+*.zip
+*.gzip
+*.rar
+*.tar
+*.gz
+*.tar.gz*
+*.sql
+
+# LOGS
+# ----------------------------
+*.bat
+*.dat
+*.log
+*.log_*
+*.log.html
+
+# TESTS
+# ----------------------------
+/test/
+/test_*
