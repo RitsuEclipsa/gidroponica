@@ -1,6 +1,5 @@
 # IGNORE CONFIGS AND IDE's FILES
 # ----------------------------
-/.htaccess
 /.idea/
 Thumbs.db
 .DS_Store

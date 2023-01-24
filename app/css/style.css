@@ -443,6 +443,8 @@ header .brand {
 
 }
 
+.clear {clear:both;}
+
 /*END BUTTONS*/
 
 /* --------------------------------------------------------------------------------*/
@@ -471,6 +473,8 @@ header .brand {
     border: solid 2px #072118;
 
 }
+
+.sec_fot {position: relative;}
 /*END FOOTER*/
 
 

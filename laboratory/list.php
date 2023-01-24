@@ -2,8 +2,13 @@
 
 <?include_once($_SERVER["DOCUMENT_ROOT"]."/app/lab_sidebar.php");?>
 
-<?
-echo "Cтраница растения (список систем для растения)";
-?>
+    <div class="container">
+
+        <p>plant_code = <?=$_GET["plant_code"]?></p>
+
+        <?
+        echo "Cтраница растения (список систем для растения)";
+        ?>
+    </div>
 
 <?include_once($_SERVER["DOCUMENT_ROOT"]."/app/footer.php");?>
