@@ -3,7 +3,7 @@
 <?include_once($_SERVER["DOCUMENT_ROOT"]."/app/lab_sidebar.php");?>
 
 <?
-echo "Лаборатория"
+echo "Cтраница растения (список систем для растения)";
 ?>
 
 <?include_once($_SERVER["DOCUMENT_ROOT"]."/app/footer.php");?>

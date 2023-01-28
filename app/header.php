@@ -1,3 +1,11 @@
+<?php
+require_once("functions.php");
+require_once("PDO_DRIVER.php");
+require_once("config.php");
+
+$pages = $REST_API->readAll($t_pages);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,8 +20,18 @@
 <header id="top">
     <div class="brand">Лаборатория гидропоники</div>
     <ul id="navbar">
-        <li><a href="index.html">Главная</a></li>
-        <li class="line"><a href="about_project.html">О проекте</a></li>
-        <li class="line"><a href="my_laboratory.html">Моя лаборатория</a></li>
+        <?foreach($pages as $item):?>
+        <?
+            $classText = 'class="class="line"';
+            $href = "/".$item["code"]."/";
+            $title = $item["title"];
+
+            if($item["code"] == "index"){
+                $classText = "";
+                $href = "/";
+            }
+            ?>
+        <li <?=$classText?>><a href="<?=$href?>"><?=$title?></a></li>
+        <?endforeach;?>
     </ul>
 </header>

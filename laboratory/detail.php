@@ -3,7 +3,7 @@
 <?include_once($_SERVER["DOCUMENT_ROOT"]."/app/lab_sidebar.php");?>
 
 <?
-echo "Лаборатория"
+echo "Описание системы для выращивания растения (Картинка системы выращивания)";
 ?>
 
 <?include_once($_SERVER["DOCUMENT_ROOT"]."/app/footer.php");?>
