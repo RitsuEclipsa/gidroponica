@@ -1,10 +1,20 @@
 <?php
 
+// LOCAL
 $db_host        = "localhost";
 $db_name        = "gidro";
 $db_user        = "root";
 $db_pass        = "";
 $db_charset     = "utf8";
+
+// REMOTE
+if($_SERVER["HTTP_HOST"] == "gidroponica-project.ru"){
+    $db_host        = "localhost";
+    $db_name        = "aeron_gidro";
+    $db_user        = "aeron_gidro";
+    $db_pass        = "7sSCF27K";
+    $db_charset     = "utf8";
+}
 
 // Tables
 $t_pages        = "t_pages";
