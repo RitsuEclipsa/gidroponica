@@ -7,16 +7,19 @@
 
 $code = $_GET["plant_code"];
 $plant_current = $REST_API->read($t_plants, $code);
-$arr = explode(",", $plant_current["code_systems"]);
+$system_codes = explode(",", $plant_current["code_systems"]);
 
+foreach($system_codes as $code){
+    $system_item = $REST_API->read($t_systems, $code);
+
+    pre($system_item);
+
+}
 
 $sys_code =$_GET["system_code"];
 $system = $REST_API->readAll($t_systems);
 
-
-
 ?>
-
 
      <div class="system_gid">
             <p class="header_system">Выбетире систему!</p>

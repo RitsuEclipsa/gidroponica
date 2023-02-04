@@ -232,11 +232,17 @@ a{
     width: 120px;
     margin-top: 10px;
     margin-left: 20px;
-    border: solid 1px black;
+    border: solid 5px black;
     border-radius: 10px;
     background: white;
-
 }
+
+.active .pl_img_my,
+.active .pl_img_my:hover
+{
+    border: solid 5px red;
+}
+
 .pl_img_my_system{
     display: block;
     margin-left: auto;
