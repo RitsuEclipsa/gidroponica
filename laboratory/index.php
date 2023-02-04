@@ -6,5 +6,6 @@
 <?
 $page = $REST_API->read($t_pages, "laboratory");
 ?>
-<?=$page["text"]?>
+
+
 <?include_once($_SERVER["DOCUMENT_ROOT"]."/app/footer.php");?>
