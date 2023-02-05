@@ -13,7 +13,7 @@ $items = [
         "title" => "Система глубоководных культур",
         "preview_picture" => "/images/templates/sist_gl_kyl.png",
         "detail_picture" => "/images/salat/syst_glub_k_salat.png",
-        "text" => "2Текст описания(не придумано)",
+        "text" => "2Текст описания(не придумано)"
     ],
     [
         "id" => 1,
@@ -33,21 +33,21 @@ $items = [
     ]
 ];
 ?>
-<?foreach($items as $item):?>
 <div class="system_gid">
     <p class="header_system">Выбетире систему!</p>
-
+<?foreach($items as $item):?>
     <?
     $param = $item;
     ?>
+
     <div class="continue">
         <a href="/labaratory/"<?=$param["code"]?>"/">
-        <img class="pl_img_my_system" src="<?$param["preview_picture"]?>">
-        <p class="after-pict_system"><?=$param["text"]?></p>
+            <img class="pl_img_my_system" src="<?=$param["preview_picture"]?>">
+            <p class="after-pict_system"><?=$param["title"]?></p>
         </a>
     </div>
-</div>
-<?endforeach?>
 
+<?endforeach?>
+</div>
 </body>
 </html>

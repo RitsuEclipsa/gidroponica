@@ -39,12 +39,12 @@ $items = [
     <?
     $param = $item;
     ?>
-    <div class="continuu">
-            <a href="/labaratory/"<?=$param["codi"]?>"/">
-                <img class="pl_img_my_system" src="<?=$param["preview_pecture"]?>">
-                <p class="after-pict_system"><?=$param["textt"]?></p>
+    <div class="continue">
+            <a href="/laboratory/".<?=$param["code"]?>."/">
+                <img class="pl_img_my_system" src="<?=$param["preview_picture"]?>">
+                <p class="after-pict_system"><?=$param["title"]?></p>
             </a>
-    <div>
+    </div>
 <?endforeach?>
 </div>
 
