@@ -2,6 +2,14 @@
 
 <?include_once($_SERVER["DOCUMENT_ROOT"]."/app/lab_sidebar.php");?>
 
+
+
+
+<?
+
+
+
+?>
     <div class="container">
 
         <p>plant_code = <?=$_GET["plant_code"]?></p>
