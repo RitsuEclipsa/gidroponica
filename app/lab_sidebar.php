@@ -2,7 +2,7 @@
 <? $plants = $REST_API->readAll($t_plants); ?>
 
 <div class="plants">
-    <p class="header_my">Выберите растение!</p>
+    <h3 class="header_my">Выберите растение:</h3>
     <?foreach($plants as $item):?>
         <?
         $href = "/laboratory/".$item["code"]."/";

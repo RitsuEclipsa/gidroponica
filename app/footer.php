@@ -1,4 +1,14 @@
+
+
 <div class="clear"></div>
-<footer class="sec_fot"></footer>
+</div><!--/center_block-->
+
+<footer class="sec_fot">
+
+    <div class="center_block">
+        <p>Проект - Гидропоника</p>
+    </div>
+
+</footer>
 </body>
 </html>
