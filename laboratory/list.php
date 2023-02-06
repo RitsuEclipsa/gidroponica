@@ -8,8 +8,8 @@ $code = $_GET["plant_code"];
 $plant_current = $REST_API->read($t_plants, $code);
 $system_codes = explode(",", $plant_current["code_systems"]);
 
-$sys_code =$_GET["system_code"];
-$system = $REST_API->readAll($t_systems);?>
+
+?>
 <div class="system_gid">
     <p class="header_system">Выберите систему!</p>
 <?foreach($system_codes as $code):
@@ -23,10 +23,10 @@ $system = $REST_API->readAll($t_systems);?>
             <p class="after-pict_system"><?=$title?></p>
         </a>
     </div>
-
+<? endforeach;?>
 </div>
 
-<? endforeach;?>
+
 
 
 

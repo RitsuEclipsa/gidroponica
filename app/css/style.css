@@ -232,7 +232,7 @@ a{
     width: 120px;
     margin-top: 10px;
     margin-left: 20px;
-    border: solid 5px black;
+    border: solid 3px black;
     border-radius: 10px;
     background: white;
 }
@@ -240,7 +240,7 @@ a{
 .active .pl_img_my,
 .active .pl_img_my:hover
 {
-    border: solid 5px red;
+    border: solid 3px red;
 }
 
 .pl_img_my_system{
@@ -250,9 +250,14 @@ a{
     height: 120px;
     width: 120px;
     margin-top: 10px;
-    border: solid 1px black;
+    border: solid 3px black;
     border-radius: 10px;
     background: white;
+}
+.active .pl_img_my_system,
+.active .pl_img_my_system:hover
+{
+    border: solid 3px red;
 }
 .half{
     display: inline-block;

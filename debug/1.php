@@ -11,7 +11,7 @@ $items = [
         "id" => 2,
         "code" => "sistema_glubokovodyh_kultur",
         "title" => "Система глубоководных культур",
-        "preview_picture" => "/images/templates/sist_gl_kyl.png",
+        "preview_picture" => "/images/templates/syst_gl_kyl.png",
         "detail_picture" => "/images/salat/syst_glub_k_salat.png",
         "text" => "2Текст описания(не придумано)",
     ],
