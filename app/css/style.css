@@ -275,6 +275,10 @@ a{
 {
     border: solid 3px red;
 }
+
+.pl_img_my_system:hover{
+    border: solid 1px #191970;
+}
 .half{
     display: inline-block;
     width: 47%;

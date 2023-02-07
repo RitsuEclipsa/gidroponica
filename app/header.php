@@ -14,7 +14,7 @@ $pages = $REST_API->readAll($t_pages);
           content="Гидропоника — это способ выращивания растений на искусственных средах без почвы. Питание растения получают из питательного раствора.">
     <meta name="keywords" content="гидропоника, лаборатория, цифровая лаборатория, лаборатория гидропоники ">
     <title>Лаборатория гидропоники</title>
-    <link rel="icon" href="/app/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="/app/css/style.css?v=<?= time() ?>">
 </head>
 <body>

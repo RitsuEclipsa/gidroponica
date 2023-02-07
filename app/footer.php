@@ -5,9 +5,7 @@
 
 <footer class="sec_fot">
 
-    <div class="center_block">
-        <p>Проект - Гидропоника</p>
-    </div>
+
 
 </footer>
 </body>
