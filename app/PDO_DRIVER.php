@@ -1,5 +1,5 @@
 <?
-// http://phpfaq.ru/pdo
+
 
 class PDO_DRIVER {
 
